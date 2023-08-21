@@ -1,14 +1,20 @@
 img.imagefundo{
-    margin: 5px;
-    margin-top: 3px;
     border: 2px solid #080404;
+    margin-top: 5px;
+    margin-left: 5px;
     float: left;
-    width: 150px;;
-    height:150px;
+    width: 125px;;
+    height:125px;
 }
 header.toposite{
-    margin: 0px;
-    background-color: rgb(3, 92, 0);
-    width: 100%;
+    
+    background-color: #035c00;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
     height:150px;
+}
+body.corposite{
+    max-width: 100%;
+    background-color: #38c233c7;
 }
