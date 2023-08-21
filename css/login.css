@@ -2,19 +2,95 @@ img.imagefundo{
     border: 2px solid #080404;
     margin-top: 5px;
     margin-left: 5px;
-    float: left;
     width: 125px;;
     height:125px;
 }
 header.toposite{
-    
     background-color: #035c00;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     height:150px;
 }
+
+.bntLogin{
+    float: right;
+    background-color: #4caf65;
+    border: 8px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bntLogin:hover {
+    background-color:  #4caf51;
+}
+.bntCadastro{
+    float: right;
+    background-color: #4caf65;
+    border: 8px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bntCadastro:hover {
+    background-color: #4caf51;
+}
 body.corposite{
     max-width: 100%;
     background-color: #38c233c7;
+    background: url(/image/fundoLogin.png);
+}
+
+.LoginOn{
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: 15px;
+    background: #035c00f5;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+      
+}
+.formCadastro{
+    text-align: center;
+
+}
+.bntFimCadastro{
+    background-color: #4caf65;
+    border: 8px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+.bntFimCadastro:hover {
+    background-color: #4caf51;
+}
+
+footer.rodapeSite {
+    background-color: #035c00de;
+    margin-top: 5%;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 155px;
+    display: block;
 }
