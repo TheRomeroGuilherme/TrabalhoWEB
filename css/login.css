@@ -14,7 +14,7 @@ header.toposite{
     height:150px;
 }
 .bntCadastro{
-    float: right;
+    display: right;
     background-color: #4caf65;
     border: 8px;
     color: #ffffff;
@@ -62,7 +62,7 @@ body.corposite{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-    float: right;
+    display: right;
 }
 .bntFimCadastro:hover {
     background-color: #4caf51;
@@ -72,26 +72,18 @@ body.corposite{
     margin-right: -8px;
     text-align: end;
 }
-img.logo{
-    border: 1px solid #ffffff;
-    margin-top: 5px;
-    margin-left: 5px;
-    width: 125px;;
-    height:125px;
-    border-radius: 5px;
-}
 .tabela {
+    text-align: center;
     background-color: #4caf51;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
     height: 100%;
+    border-radius: 15px;
 }
 .tabelaform{
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 100%;
+    margin-left: 15%;
+    
 }
 table, tr , td {
     color: #ffffff;
