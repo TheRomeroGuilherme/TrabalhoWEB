@@ -13,15 +13,15 @@ header.toposite{
     margin-right: -8px;
     height:150px;
 }
+
 .bntCadastro{
-    display: right;
     background-color: #4caf65;
     border: 8px;
     color: #ffffff;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-blok;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
